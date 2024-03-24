@@ -2,7 +2,7 @@
 //  OnboardingView.swift
 //  Rive
 //
-//  Created by mac on 24/03/2024.
+//  Created by Amish on 24/03/2024.
 //
 
 import SwiftUI
@@ -13,7 +13,13 @@ struct OnboardingView: View {
     var body: some View {
         ZStack {
             background
-            startButton
+            VStack {
+                Text("Learn design & code")
+                    .font(.custom("Poppins Bold", size: 60.0, relativeTo: .largeTitle))
+                Text("Dont skip design. Learn design and code, by building real apps with Swift and SwiftUI. Complete courses about the best tools.")
+                    .customFont(.body)
+                startButton
+            }
         }
     }
 }
