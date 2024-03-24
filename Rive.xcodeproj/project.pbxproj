@@ -11,6 +11,23 @@
 		040EB2952BAD892E001ACF00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2942BAD892E001ACF00 /* ContentView.swift */; };
 		040EB2972BAD8930001ACF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2962BAD8930001ACF00 /* Assets.xcassets */; };
 		040EB29A2BAD8930001ACF00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2992BAD8930001ACF00 /* Preview Assets.xcassets */; };
+		040EB2A92BB00D3E001ACF00 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A12BB00D3E001ACF00 /* button.riv */; };
+		040EB2AA2BB00D3E001ACF00 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A22BB00D3E001ACF00 /* check.riv */; };
+		040EB2AB2BB00D3E001ACF00 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A32BB00D3E001ACF00 /* confetti.riv */; };
+		040EB2AC2BB00D3E001ACF00 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A42BB00D3E001ACF00 /* house.riv */; };
+		040EB2AD2BB00D3E001ACF00 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A52BB00D3E001ACF00 /* icons.riv */; };
+		040EB2AE2BB00D3E001ACF00 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A62BB00D3E001ACF00 /* menu_button.riv */; };
+		040EB2AF2BB00D3E001ACF00 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2A72BB00D3E001ACF00 /* shapes.riv */; };
+		040EB2B32BB00D46001ACF00 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2B02BB00D46001ACF00 /* Course.swift */; };
+		040EB2B42BB00D46001ACF00 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2B12BB00D46001ACF00 /* CourseSection.swift */; };
+		040EB2B92BB00D59001ACF00 /* Circle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2B52BB00D59001ACF00 /* Circle.svg */; };
+		040EB2BA2BB00D59001ACF00 /* Hexagon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2B62BB00D59001ACF00 /* Hexagon.svg */; };
+		040EB2BB2BB00D59001ACF00 /* Triangle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2B72BB00D59001ACF00 /* Triangle.svg */; };
+		040EB2C02BB00D5E001ACF00 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2BC2BB00D5E001ACF00 /* Inter-Regular.ttf */; };
+		040EB2C12BB00D5E001ACF00 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2BD2BB00D5E001ACF00 /* Inter-SemiBold.ttf */; };
+		040EB2C22BB00D5E001ACF00 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 040EB2BE2BB00D5E001ACF00 /* Poppins-Bold.ttf */; };
+		040EB2C52BB00DA6001ACF00 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 040EB2C42BB00DA6001ACF00 /* RiveRuntime */; };
+		040EB2C72BB00DB1001ACF00 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,22 @@
 		040EB2942BAD892E001ACF00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		040EB2962BAD8930001ACF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040EB2992BAD8930001ACF00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040EB2A12BB00D3E001ACF00 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		040EB2A22BB00D3E001ACF00 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		040EB2A32BB00D3E001ACF00 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		040EB2A42BB00D3E001ACF00 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		040EB2A52BB00D3E001ACF00 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		040EB2A62BB00D3E001ACF00 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		040EB2A72BB00D3E001ACF00 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		040EB2B02BB00D46001ACF00 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		040EB2B12BB00D46001ACF00 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		040EB2B52BB00D59001ACF00 /* Circle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Circle.svg; sourceTree = "<group>"; };
+		040EB2B62BB00D59001ACF00 /* Hexagon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hexagon.svg; sourceTree = "<group>"; };
+		040EB2B72BB00D59001ACF00 /* Triangle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Triangle.svg; sourceTree = "<group>"; };
+		040EB2BC2BB00D5E001ACF00 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		040EB2BD2BB00D5E001ACF00 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		040EB2BE2BB00D5E001ACF00 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EB2C52BB00DA6001ACF00 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +85,13 @@
 		040EB2912BAD892E001ACF00 /* Rive */ = {
 			isa = PBXGroup;
 			children = (
-				040EB2922BAD892E001ACF00 /* RiveApp.swift */,
+				040EB2A02BB00B46001ACF00 /* App */,
 				040EB2942BAD892E001ACF00 /* ContentView.swift */,
+				040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */,
+				040EB2BF2BB00D5E001ACF00 /* Fonts */,
+				040EB2B82BB00D59001ACF00 /* SVG */,
+				040EB2B22BB00D46001ACF00 /* Model */,
+				040EB2A82BB00D3E001ACF00 /* RiveAssets */,
 				040EB2962BAD8930001ACF00 /* Assets.xcassets */,
 				040EB2982BAD8930001ACF00 /* Preview Content */,
 			);
@@ -65,6 +104,57 @@
 				040EB2992BAD8930001ACF00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		040EB2A02BB00B46001ACF00 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2922BAD892E001ACF00 /* RiveApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		040EB2A82BB00D3E001ACF00 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2A12BB00D3E001ACF00 /* button.riv */,
+				040EB2A22BB00D3E001ACF00 /* check.riv */,
+				040EB2A32BB00D3E001ACF00 /* confetti.riv */,
+				040EB2A42BB00D3E001ACF00 /* house.riv */,
+				040EB2A52BB00D3E001ACF00 /* icons.riv */,
+				040EB2A62BB00D3E001ACF00 /* menu_button.riv */,
+				040EB2A72BB00D3E001ACF00 /* shapes.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		040EB2B22BB00D46001ACF00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2B02BB00D46001ACF00 /* Course.swift */,
+				040EB2B12BB00D46001ACF00 /* CourseSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040EB2B82BB00D59001ACF00 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2B52BB00D59001ACF00 /* Circle.svg */,
+				040EB2B62BB00D59001ACF00 /* Hexagon.svg */,
+				040EB2B72BB00D59001ACF00 /* Triangle.svg */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
+		040EB2BF2BB00D5E001ACF00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2BC2BB00D5E001ACF00 /* Inter-Regular.ttf */,
+				040EB2BD2BB00D5E001ACF00 /* Inter-SemiBold.ttf */,
+				040EB2BE2BB00D5E001ACF00 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,9 @@
 			dependencies = (
 			);
 			name = Rive;
+			packageProductDependencies = (
+				040EB2C42BB00DA6001ACF00 /* RiveRuntime */,
+			);
 			productName = Rive;
 			productReference = 040EB28F2BAD892E001ACF00 /* Rive.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 040EB2862BAD892E001ACF00;
+			packageReferences = (
+				040EB2C32BB00DA5001ACF00 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 040EB2902BAD892E001ACF00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +221,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EB2BB2BB00D59001ACF00 /* Triangle.svg in Resources */,
+				040EB2A92BB00D3E001ACF00 /* button.riv in Resources */,
 				040EB29A2BAD8930001ACF00 /* Preview Assets.xcassets in Resources */,
+				040EB2AD2BB00D3E001ACF00 /* icons.riv in Resources */,
+				040EB2AA2BB00D3E001ACF00 /* check.riv in Resources */,
+				040EB2AF2BB00D3E001ACF00 /* shapes.riv in Resources */,
+				040EB2C12BB00D5E001ACF00 /* Inter-SemiBold.ttf in Resources */,
+				040EB2C22BB00D5E001ACF00 /* Poppins-Bold.ttf in Resources */,
 				040EB2972BAD8930001ACF00 /* Assets.xcassets in Resources */,
+				040EB2BA2BB00D59001ACF00 /* Hexagon.svg in Resources */,
+				040EB2C02BB00D5E001ACF00 /* Inter-Regular.ttf in Resources */,
+				040EB2B92BB00D59001ACF00 /* Circle.svg in Resources */,
+				040EB2AC2BB00D3E001ACF00 /* house.riv in Resources */,
+				040EB2AE2BB00D3E001ACF00 /* menu_button.riv in Resources */,
+				040EB2AB2BB00D3E001ACF00 /* confetti.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EB2B42BB00D46001ACF00 /* CourseSection.swift in Sources */,
+				040EB2B32BB00D46001ACF00 /* Course.swift in Sources */,
 				040EB2952BAD892E001ACF00 /* ContentView.swift in Sources */,
+				040EB2C72BB00DB1001ACF00 /* OnboardingView.swift in Sources */,
 				040EB2932BAD892E001ACF00 /* RiveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		040EB2C32BB00DA5001ACF00 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		040EB2C42BB00DA6001ACF00 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040EB2C32BB00DA5001ACF00 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 040EB2872BAD892E001ACF00 /* Project object */;
 }
