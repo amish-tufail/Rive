@@ -96,12 +96,8 @@
 			children = (
 				040EB2C82BB0104B001ACF00 /* Info.plist */,
 				040EB2A02BB00B46001ACF00 /* App */,
-				040EB2942BAD892E001ACF00 /* ContentView.swift */,
-				040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */,
-				040EB2CB2BB013DD001ACF00 /* SignInView.swift */,
-				040EB2CF2BB01960001ACF00 /* Extensions.swift */,
-				040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */,
-				040EB2C92BB0111F001ACF00 /* CustomFont.swift */,
+				040EB2D22BB02FFC001ACF00 /* Views */,
+				040EB2D12BB02FF3001ACF00 /* Style */,
 				040EB2BF2BB00D5E001ACF00 /* Fonts */,
 				040EB2B82BB00D59001ACF00 /* SVG */,
 				040EB2B22BB00D46001ACF00 /* Model */,
@@ -169,6 +165,26 @@
 				040EB2BE2BB00D5E001ACF00 /* Poppins-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		040EB2D12BB02FF3001ACF00 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2CF2BB01960001ACF00 /* Extensions.swift */,
+				040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */,
+				040EB2C92BB0111F001ACF00 /* CustomFont.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		040EB2D22BB02FFC001ACF00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040EB2942BAD892E001ACF00 /* ContentView.swift */,
+				040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */,
+				040EB2CB2BB013DD001ACF00 /* SignInView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
