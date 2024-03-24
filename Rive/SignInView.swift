@@ -30,6 +30,15 @@ struct SignInView: View {
                 SecureField("", text: $password)
                     .customTextField(image: Image(.iconLock))
             }
+            Label("Sign in", systemImage: "arrow.right")
+                .customFont(.headline)
+                .padding(20.0)
+                .frame(maxWidth: .infinity)
+                .background(Color(hex: "F77D8E"))
+                .foregroundStyle(.white)
+                .clipShape(.rect(topLeadingRadius: 0.0, bottomLeadingRadius: 20.0, bottomTrailingRadius: 20.0, topTrailingRadius: 20.0, style: .continuous))
+                .clipShape(.rect(topLeadingRadius: 8.0, bottomLeadingRadius: 0.0, bottomTrailingRadius: 0.0, topTrailingRadius: 0.0, style: .continuous))
+                .shadow(color: Color(hex: "F77D8E").opacity(0.5), radius: 20.0, x: 0.0, y: 10.0)
             HStack {
                 Rectangle()
                     .frame(height: 1.0)

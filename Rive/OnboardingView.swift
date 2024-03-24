@@ -10,25 +10,35 @@ import RiveRuntime
 
 struct OnboardingView: View {
     let button =  RiveViewModel(fileName: "button")
+    @State private var showModal = false
     var body: some View {
         ZStack {
             background
-            VStack(alignment: .leading) {
-                Text("Learn design & code")
-                    .font(.custom("Poppins Bold", size: 60.0, relativeTo: .largeTitle))
-//                    .frame(width: 260.0, alignment: .leading)/
-                Text("Dont skip design. Learn design and code, by building real apps with Swift and SwiftUI. Complete courses about the best tools.")
-                    .customFont(.body)
-                Spacer()
-                startButton
-                Text("Purchase inlcude access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates.")
-                    .customFont(.footnote)
-                    .opacity(0.7)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top)
+            content
+                .offset(y: showModal ? -50.0 : 0.0)
+            Color(.shadow)
+                .opacity(showModal ? 0.4 : 0.0)
+                .ignoresSafeArea()
+            if showModal {
+                SignInView()
+                    .overlay {
+                        Button {
+                            withAnimation(.spring()) {
+                                showModal = false
+                            }
+                        } label: {
+                            Image(systemName: "xmark")
+                                .frame(width: 36.0, height: 36.0)
+                                .foregroundStyle(.black)
+                                .background(.white)
+                                .mask(Circle())
+                                .shadow(color: .shadow.opacity(0.3), radius: 5.0, x: 0.0, y: 3.0)
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                    }
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                    .zIndex(1.0)
             }
-            .padding(40.0)
-            .padding(.top, 40.0)
         }
     }
 }
@@ -62,7 +72,31 @@ extension OnboardingView {
             )
             .onTapGesture {
                 button.play(animationName: "active")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                    withAnimation(.spring()) {
+                        showModal = true
+                    }
+                }
             }
+    }
+    
+    var content: some View {
+        VStack(alignment: .leading) {
+            Text("Learn design & code")
+                .font(.custom("Poppins Bold", size: 60.0, relativeTo: .largeTitle))
+                .frame(width: 260.0, alignment: .leading)
+            Text("Dont skip design. Learn design and code, by building real apps with Swift and SwiftUI. Complete courses about the best tools.")
+                .customFont(.body)
+            Spacer()
+            startButton
+            Text("Purchase inlcude access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates.")
+                .customFont(.footnote)
+                .opacity(0.7)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top)
+        }
+        .padding(40.0)
+        .padding(.top, 40.0)
     }
 }
 

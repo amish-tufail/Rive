@@ -31,6 +31,7 @@
 		040EB2CA2BB0111F001ACF00 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2C92BB0111F001ACF00 /* CustomFont.swift */; };
 		040EB2CC2BB013DD001ACF00 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2CB2BB013DD001ACF00 /* SignInView.swift */; };
 		040EB2CE2BB015DF001ACF00 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */; };
+		040EB2D02BB01960001ACF00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2CF2BB01960001ACF00 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		040EB2C92BB0111F001ACF00 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		040EB2CB2BB013DD001ACF00 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		040EB2CF2BB01960001ACF00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				040EB2942BAD892E001ACF00 /* ContentView.swift */,
 				040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */,
 				040EB2CB2BB013DD001ACF00 /* SignInView.swift */,
+				040EB2CF2BB01960001ACF00 /* Extensions.swift */,
 				040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */,
 				040EB2C92BB0111F001ACF00 /* CustomFont.swift */,
 				040EB2BF2BB00D5E001ACF00 /* Fonts */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040EB2B42BB00D46001ACF00 /* CourseSection.swift in Sources */,
+				040EB2D02BB01960001ACF00 /* Extensions.swift in Sources */,
 				040EB2CC2BB013DD001ACF00 /* SignInView.swift in Sources */,
 				040EB2B32BB00D46001ACF00 /* Course.swift in Sources */,
 				040EB2952BAD892E001ACF00 /* ContentView.swift in Sources */,
