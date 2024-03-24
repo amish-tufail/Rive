@@ -13,13 +13,22 @@ struct OnboardingView: View {
     var body: some View {
         ZStack {
             background
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Learn design & code")
                     .font(.custom("Poppins Bold", size: 60.0, relativeTo: .largeTitle))
+//                    .frame(width: 260.0, alignment: .leading)/
                 Text("Dont skip design. Learn design and code, by building real apps with Swift and SwiftUI. Complete courses about the best tools.")
                     .customFont(.body)
+                Spacer()
                 startButton
+                Text("Purchase inlcude access to 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates.")
+                    .customFont(.footnote)
+                    .opacity(0.7)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top)
             }
+            .padding(40.0)
+            .padding(.top, 40.0)
         }
     }
 }
