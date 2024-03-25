@@ -33,6 +33,7 @@
 		040EB2D02BB01960001ACF00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2CF2BB01960001ACF00 /* Extensions.swift */; };
 		040EB2E02BB037AF001ACF00 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 040EB2DF2BB037AF001ACF00 /* RiveRuntime */; };
 		040EB2E22BB037EC001ACF00 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E12BB037EC001ACF00 /* TabBar.swift */; };
+		040EB2E42BB170FD001ACF00 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E32BB170FD001ACF00 /* VCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		040EB2CD2BB015DF001ACF00 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		040EB2CF2BB01960001ACF00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		040EB2E12BB037EC001ACF00 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		040EB2E32BB170FD001ACF00 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				040EB2C62BB00DB1001ACF00 /* OnboardingView.swift */,
 				040EB2CB2BB013DD001ACF00 /* SignInView.swift */,
 				040EB2E12BB037EC001ACF00 /* TabBar.swift */,
+				040EB2E32BB170FD001ACF00 /* VCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				040EB2CC2BB013DD001ACF00 /* SignInView.swift in Sources */,
 				040EB2B32BB00D46001ACF00 /* Course.swift in Sources */,
 				040EB2952BAD892E001ACF00 /* ContentView.swift in Sources */,
+				040EB2E42BB170FD001ACF00 /* VCard.swift in Sources */,
 				040EB2CE2BB015DF001ACF00 /* CustomTextField.swift in Sources */,
 				040EB2CA2BB0111F001ACF00 /* CustomFont.swift in Sources */,
 				040EB2C72BB00DB1001ACF00 /* OnboardingView.swift in Sources */,
