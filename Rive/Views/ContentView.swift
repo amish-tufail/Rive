@@ -11,6 +11,8 @@ import RiveRuntime
 struct ContentView: View {
     @AppStorage("selectedTab") var selectedTab: Tab = .chat
     @State private var isOpen = false
+    @State private var show = false
+    
     let button = RiveViewModel(fileName: "menu_button", stateMachineName: "State Machine", autoPlay: false)
     var body: some View {
         ZStack {
@@ -49,7 +51,22 @@ struct ContentView: View {
             .offset(x: isOpen ? 265.0 : 0.0)
             .scaleEffect(isOpen ? 0.9 : 1.0)
             // Side Menu End
+            .scaleEffect(show ? 0.92 : 1.0)
             .ignoresSafeArea()
+            Image(systemName: "person")
+                .frame(width: 36.0, height: 36.0)
+                .background(.white)
+                .mask(Circle())
+                .shadow(color: .shadow.opacity(0.2), radius: 5.0, x: 0.0, y: 5.0)
+                .onTapGesture {
+                    withAnimation(.spring()) {
+                        show = true
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                .padding()
+                .offset(y: 4.0)
+                .offset(x: isOpen ? 44.0 : 0.0)
             button.view()
                 .frame(width: 44.0, height: 44.0)
                 .mask(Circle())
@@ -65,6 +82,25 @@ struct ContentView: View {
                 }
             TabBar()
                 .offset(y: isOpen ? 300.0 : 0.0)
+                .offset(y: show ? 200.0 : 0.0)
+                .offset(y: -24.0)
+                .background(
+                    LinearGradient(colors: [Color.background.opacity(0.0), Color.background], startPoint: .top, endPoint: .bottom)
+                        .frame(height: 150.0)
+                        .frame(maxHeight: .infinity, alignment: .bottom)
+                        .allowsHitTesting(false)
+                )
+                .ignoresSafeArea()
+            if show {
+                OnboardingView(show: $show)
+                    .background(.white)
+                    .mask(RoundedRectangle(cornerRadius: 30.0, style: .continuous))
+                    .shadow(color: .black.opacity(0.5), radius: 4.0, x: 0.0, y: 4.0)
+                    .ignoresSafeArea(.all, edges: .top)
+                    .transition(.move(edge: .top))
+                    .offset(y: show ? -10.0 : 0.0)
+                    .zIndex(1)
+            }
         }
     }
 }
