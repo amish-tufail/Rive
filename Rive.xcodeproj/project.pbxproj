@@ -34,6 +34,7 @@
 		040EB2E02BB037AF001ACF00 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 040EB2DF2BB037AF001ACF00 /* RiveRuntime */; };
 		040EB2E22BB037EC001ACF00 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E12BB037EC001ACF00 /* TabBar.swift */; };
 		040EB2E42BB170FD001ACF00 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E32BB170FD001ACF00 /* VCard.swift */; };
+		040EB2E82BB177DF001ACF00 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E72BB177DF001ACF00 /* HCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		040EB2CF2BB01960001ACF00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		040EB2E12BB037EC001ACF00 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		040EB2E32BB170FD001ACF00 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		040EB2E72BB177DF001ACF00 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				040EB2CB2BB013DD001ACF00 /* SignInView.swift */,
 				040EB2E12BB037EC001ACF00 /* TabBar.swift */,
 				040EB2E32BB170FD001ACF00 /* VCard.swift */,
+				040EB2E72BB177DF001ACF00 /* HCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EB2E82BB177DF001ACF00 /* HCard.swift in Sources */,
 				040EB2B42BB00D46001ACF00 /* CourseSection.swift in Sources */,
 				040EB2D02BB01960001ACF00 /* Extensions.swift in Sources */,
 				040EB2CC2BB013DD001ACF00 /* SignInView.swift in Sources */,

@@ -14,6 +14,7 @@ struct VCard: View {
             Text(course.title)
                 .customFont(.title2)
                 .frame(maxWidth: 170.0, alignment: .leading)
+                .layoutPriority(1)
             Text(course.subtitle)
                 .customFont(.subheadline)
                 .frame(maxWidth: .infinity, alignment: .leading)
