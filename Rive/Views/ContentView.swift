@@ -14,17 +14,25 @@ struct ContentView: View {
     let button = RiveViewModel(fileName: "menu_button", stateMachineName: "State Machine", autoPlay: false)
     var body: some View {
         ZStack {
-            switch selectedTab {
-            case .chat:
-                Text("Chat")
-            case .search:
-                Text("Search")
-            case .timer:
-                Text("Timer")
-            case .bell:
-                Text("Bell")
-            case .user:
-                Text("User")
+            Group {
+                switch selectedTab {
+                case .chat:
+                    HomeView()
+                case .search:
+                    Text("Search")
+                case .timer:
+                    Text("Timer")
+                case .bell:
+                    Text("Bell")
+                case .user:
+                    Text("User")
+                }
+            }
+            .safeAreaInset(edge: .bottom) { // Give all views a padding like thing instead of giving each themselves
+                Color.clear.frame(height: 80.0)
+            }
+            .safeAreaInset(edge: .top) {
+                Color.clear.frame(height: 104.0)
             }
             button.view()
                 .frame(width: 44.0, height: 44.0)
@@ -33,7 +41,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                 .padding()
                 .onTapGesture {
-                    try? button.setInput("isOpen", value: isOpen)
+                    button.setInput("isOpen", value: isOpen)
                     isOpen.toggle()
                 }
             TabBar()

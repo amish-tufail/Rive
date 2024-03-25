@@ -35,6 +35,7 @@
 		040EB2E22BB037EC001ACF00 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E12BB037EC001ACF00 /* TabBar.swift */; };
 		040EB2E42BB170FD001ACF00 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E32BB170FD001ACF00 /* VCard.swift */; };
 		040EB2E82BB177DF001ACF00 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E72BB177DF001ACF00 /* HCard.swift */; };
+		040EB2EA2BB17878001ACF00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EB2E92BB17878001ACF00 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		040EB2E12BB037EC001ACF00 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		040EB2E32BB170FD001ACF00 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
 		040EB2E72BB177DF001ACF00 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		040EB2E92BB17878001ACF00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				040EB2E12BB037EC001ACF00 /* TabBar.swift */,
 				040EB2E32BB170FD001ACF00 /* VCard.swift */,
 				040EB2E72BB177DF001ACF00 /* HCard.swift */,
+				040EB2E92BB17878001ACF00 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				040EB2E82BB177DF001ACF00 /* HCard.swift in Sources */,
 				040EB2B42BB00D46001ACF00 /* CourseSection.swift in Sources */,
+				040EB2EA2BB17878001ACF00 /* HomeView.swift in Sources */,
 				040EB2D02BB01960001ACF00 /* Extensions.swift in Sources */,
 				040EB2CC2BB013DD001ACF00 /* SignInView.swift in Sources */,
 				040EB2B32BB00D46001ACF00 /* Course.swift in Sources */,
